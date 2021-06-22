@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+/* This is actual index code */
+
+.destinations-list {
+  display: block;
+  height: 100%;
+}
+
+.pictures-banner {
+  width: 100%;
+  height: 300px;
+  background-image: url('../img/bike.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bg-modal {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.modal-heading {
+  font-size: 15px;
+  font-family: cursive;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.wrapper{
+  display: block;
+  margin: 5% 10% 5% 10%;
+}
+
+.wrapper .sidebar{
+  width: 250px;
+  height: 100%;
+  background: #fff;
+  padding: 30px 0px;
+  float: left;
+}
+
+.wrapper .sidebar h2{
+  font-family: 'Antic Slab', serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #111;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  font-family: 'Antic Slab', serif;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  list-style-type: none;
+  padding: 20px 0px;
+  margin: 30px auto;
+  border-bottom: 1px solid #111;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.wrapper .sidebar ul li a{
+  color: #111;
+  display: block;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #f3f3f3;
+}
+
+.wrapper .sidebar ul li:hover a{
+  color: #111;
+}
+
+.remaining-space {
+ width: 200px;
+ height: 500px;
+ background-color: #fff;
+}
+
+.wrapper .dest-boxes {
+width: calc(100%-200px);
+height: 100%;
+background: #fff;
+}
+
+.dest-boxes .box {
+  margin: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 4px #ccc;
+  width: 23%;
+  float: left;
+  background: #fff;
+  height: 500px;
+  transition: 0.9s;
+  position: relative;
+}
+
+.dest-boxes .box:hover {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  transform: scale(1.2s);
+}
+
+.box .imgBx {
+  transition: 0.9s;
+}
+
+.box .imgBx:hover {
+  border-radius: 25px;
+  transform: scale(1.2s);
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+.box .imgBx img{
+  object-fit: cover;
+  width: 100%;
+  height: 220px;
+  transition: 0.9s;
+}
+
+.box .imgBx img:hover {
+  border-radius: 25px;
+  transform: scale(1.2s);
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+ }
+
+.desc {
+  padding: 15px;
+}
+
+.desc h3 {
+  font-weight: 600;
+  font-family: 'Antic Slab', serif;
+  font-size: 22px;
+  color: rgb(0,0,205); /*mediumblue*/
+  line-height: 30px;
+  text-align: left;
+}
+
+.desc h4 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Antic Slab', serif;
+  color: #111;
+  line-height: 45px;
+  text-align: left;
+}
+
+.desc h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Antic Slab', serif;
+  color: #111;
+  line-height: 40px;
+  text-align: left;
+}
+
+.desc h2 span{
+  font-family: fantasy;
+  font-weight: 400;
+  font-size: 30px;
+  color: red;
+}
+
+.desc a{
+  border: 1px solid #ff3333;
+  background-color: #ff3333;
+  float: left;
+  width: 90%;
+  height: 60px;
+  transition: 0.5s;
+  text-align: center;
+  color: white;
+  font-family: 'Antic Slab', serif;
+  font-size: 28px;
+  line-height: 60px;
+  position: absolute;
+  bottom: 15px;
+}
+
+.desc a:hover {
+  transform: scale(1.2s);
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.6);
+}
+
+.noofresults {
+  margin-left: 550px;
+  display: block;
+  font-weight: 600;
+  font-family: 'Antic Slab', serif;
+  color: rgb(0,0,205);
+  font-size: 25px;
+}
+
+@media(max-width:1000px)
+{
+
+}

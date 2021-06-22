@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* This is actual index code */
+
+.index-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('../img/banner2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.index-banner h2 {
+  font-family: fantasy;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h1 {
+  font-family: cursive;
+  font-size: 24px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 35px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 2px #111;
+}
+
+.destinations-table
+{
+    margin: 100px 10% 100px 10%;
+    overflow: hidden;
+}
+
+.destinations-table .gallery {
+  margin: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 4px #ccc;
+  float: left;
+  width: calc((95%)/1);
+  height: 500px;
+  transition: 0.9s;
+  position: relative;
+}
+
+.destinations-table .gallery:hover {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  transform: scale(1.2s);
+}
+
+.gallery .imgBx {
+  transition: 0.9s;
+
+}
+
+.gallery .imgBx:hover {
+  border-radius: 25px;
+  transform: scale(1.2s);
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+.gallery .imgBx img{
+  object-fit: cover;
+  width: 100%;
+  height: 220px;
+  transition: 0.9s;
+}
+
+.gallery .imgBx img:hover {
+  border-radius: 25px;
+  transform: scale(1.2s);
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+ }
+
+.desc {
+  padding: 15px;
+}
+
+.desc h3 {
+  font-weight: 600;
+  font-family: 'Antic Slab', serif;
+  font-size: 22px;
+  color: rgb(0,0,205); /*mediumblue*/
+  line-height: 30px;
+  text-align: left;
+}
+
+.desc h4 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Antic Slab', serif;
+  color: #111;
+  line-height: 45px;
+  text-align: left;
+}
+
+.desc h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Antic Slab', serif;
+  color: #111;
+  line-height: 40px;
+  text-align: left;
+}
+
+.desc h2 span{
+  font-family: fantasy;
+  font-weight: 400;
+  font-size: 30px;
+  color: red;
+}
+
+.desc a{
+  border: 1px solid #ff3333;
+  background-color: #ff3333;
+  float: left;
+  width: 90%;
+  height: 60px;
+  transition: 0.5s;
+  text-align: center;
+  color: white;
+  font-family: 'Antic Slab', serif;
+  font-size: 28px;
+  line-height: 60px;
+  position: absolute;
+  bottom: 15px;
+}
+
+.desc a:hover {
+  transform: scale(1.2s);
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.6);
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .index-banner {
+    height: 450px;
+  }
+
+  .index-banner h1 {
+    display: block;
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  .gallery {
+    width: 23% !important;
+  }
+
+}
